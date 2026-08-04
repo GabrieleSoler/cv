@@ -27,8 +27,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            result/Arthur_Fernandes_Eng.pdf
-            result/Arthur_Fernandes_Por.pdf
+            result/Gabriele_Vieira_Eng.pdf
+            result/Gabriele_Vieira_Por.pdf
           tag_name: ${{ steps.tag.outputs.tag_name }}
           name: CV Build ${{ steps.tag.outputs.tag_name }}
           body: |
@@ -40,8 +40,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            result/Arthur_Fernandes_Eng.pdf
-            result/Arthur_Fernandes_Por.pdf
+            result/Gabriele_Vieira_Eng.pdf
+            result/Gabriele_Vieira_Por.pdf
           tag_name: latest
           name: Latest Build
           body: |

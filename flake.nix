@@ -24,8 +24,8 @@
         '';
         installPhase = ''
           mkdir -p $out
-          cp cv_english.pdf $out/Arthur_Fernandes_Eng.pdf
-          cp cv_portuguese.pdf $out/Arthur_Fernandes_Por.pdf
+          cp cv_english.pdf $out/Gabriele_Vieira_Eng.pdf
+          cp cv_portuguese.pdf $out/Gabriele_Vieira_Por.pdf
         '';
       };
     };
