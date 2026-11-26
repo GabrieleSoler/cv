@@ -7,12 +7,18 @@
 \setlength{\hintscolumnwidth}{3.8cm} % Ajustar largura para que as datas fiquem em uma única linha
 
 \name{Gabriele da Soler Vieira}{}
-\title{Desenvolvedora Front-End Pleno}
+\title{\normalsize Desenvolvedora Full Stack | React Native | TypeScript | Java}
 \address{Criciúma--SC}
 \phone[mobile]{+55 (48) 99670-1019}
 \email{gabriele.dasolervieira@gmail.com}
-\social[linkedin]{gabrieledasoler}
-\social[github]{GabrieleSoler}
+\social[linkedin][https://www.linkedin.com/in/gabrieledasoler]{linkedin.com/in/gabrieledasoler}
+\social[github][https://github.com/GabrieleSoler]{github.com/GabrieleSoler}
+
+% Remover ícones do cabeçalho (ATS lê ícones como caracteres inválidos)
+\renewcommand*{\mobilephonesymbol}{}
+\renewcommand*{\emailsymbol}{}
+\renewcommand*{\linkedinsocialsymbol}{}
+\renewcommand*{\githubsocialsymbol}{}
 
 % Definir o nome em uma única cor
 \colorlet{color2}{color1}
@@ -22,25 +28,26 @@
 \makecvtitle
 
 \section{Resumo}
-{Desenvolvedora Front-End Pleno com mais de 4 anos de experiência, especializada em React.js, React Native e TypeScript. Crio interfaces escaláveis e de alta performance, com foco em reutilização de componentes e integração de APIs REST. Tenho sólida experiência em ecossistemas Full Stack, o que me proporciona uma visão holística da arquitetura de software e permite colaborar de forma eficiente em squads ágeis e multidisciplinares.}
+{Desenvolvedora Full Stack com mais de 5 anos de experiência, especializada em React.js, React Native e TypeScript no front-end e atuando atualmente com Java, Node.js e AWS no back-end. Crio interfaces escaláveis e de alta performance, com foco em reutilização de componentes e integração de APIs REST. Tenho sólida experiência em ecossistemas Full Stack, o que me proporciona uma visão holística da arquitetura de software e permite colaborar de forma eficiente em squads ágeis e multidisciplinares.}
 
 \section{Competências Técnicas}
-\cvitem{Stack Principal}{React.js, React Native, TypeScript, Tailwind CSS}
-\cvitem{Stack Secundária}{Vue.js, Angular, C\#, SQL}
+\cvitem{Front-End}{React.js, React Native, TypeScript, Tailwind CSS, Vue.js, Angular}
+\cvitem{Back-End}{Java, Node.js, AWS, C\#, ASP.NET, SQL}
 \cvitem{Práticas}{Git, Scrum/Kanban, Code Review, Design System}
 
 \section{Experiência profissional}
-\cventry{Jul/2024 -- Presente}{Desenvolvedora Front-End Pleno}{CELK Sistemas}{Florianópolis-SC (Remoto)}{}{
+\cventry{Jul/2024 -- Presente}{Desenvolvedora Front-End}{CELK Sistemas}{Florianópolis-SC (Remoto)}{}{
   \begin{itemize}
     \item Desenvolvo aplicativo mobile em React Native para gestão de saúde pública, com funcionalidades de rastreamento de domicílios e imóveis em campo, otimizando o trabalho das equipes e a qualidade dos dados coletados pelo município.
     \item Implementei a funcionalidade de gestão de visitas domiciliares, permitindo que profissionais de saúde registrem e acompanhem visitas de forma estruturada e eficiente.
     \item Criei relatórios gerenciais com dados dos municípios, contemplando controle de vetores (como Aedes aegypti) e monitoramento de doenças, apoiando a tomada de decisão das equipes de saúde.
-    \item Desenvolvi arquitetura offline-first com WatermelonDB, garantindo o funcionamento do app sem conexão com internet e a sincronização automática dos dados quando online.
+    \item Desenvolvi arquitetura offline-first com WatermelonDB, permitindo que os Agentes Comunitários de Saúde registrem visitas em campo sem internet.
+    \item Atuei na sincronização desses dados com o sistema oficial de saúde quando há conexão, nos dois sentidos, utilizando Java, Node.js, AWS Lambda, SNS e SQS.
     \item Construí Design System interno com componentes reutilizáveis, padronizando a interface e acelerando o desenvolvimento de novas features.
-    \item Contribuo para a melhoria contínua da aplicação e dos processos de desenvolvimento, participando de revisões de código e evolução da arquitetura.
+    \item Participo de reuniões de arquitetura, contribuindo para decisões técnicas da aplicação e do fluxo de sincronização, além de revisões de código e melhoria contínua dos processos.
   \end{itemize}
   \bigskip
-  Skills: React Native · TypeScript · WatermelonDB · Tailwind CSS · Design System · Offline-first
+  Skills: React.js · React Native · TypeScript · Java · Node.js · AWS · WatermelonDB · Tailwind CSS · Design System · Offline-first
   \bigskip
 }
 
