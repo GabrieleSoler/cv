@@ -7,12 +7,18 @@
 \setlength{\hintscolumnwidth}{3.8cm} % Adjust width for dates to be in a single line
 
 \name{Gabriele da Soler Vieira}{}
-\title{\normalsize Front-End Developer | React Native | React | TypeScript}
+\title{\normalsize Full Stack Developer | React Native | TypeScript | Java}
 \address{Criciúma, Santa Catarina, Brazil}
 \phone[mobile]{+55 (48) 99670-1019}
 \email{gabriele.dasolervieira@gmail.com}
-\social[linkedin]{gabrieledasoler}
-\social[github]{GabrieleSoler}
+\social[linkedin][https://www.linkedin.com/in/gabrieledasoler]{linkedin.com/in/gabrieledasoler}
+\social[github][https://github.com/GabrieleSoler]{github.com/GabrieleSoler}
+
+% Remove header icons (ATS parses icons as garbage characters)
+\renewcommand*{\mobilephonesymbol}{}
+\renewcommand*{\emailsymbol}{}
+\renewcommand*{\linkedinsocialsymbol}{}
+\renewcommand*{\githubsocialsymbol}{}
 
 % Set name to a single color
 \colorlet{color2}{color1}
@@ -22,21 +28,23 @@
 \makecvtitle
 
 \section{Summary}
-{Front-End Developer with 4+ years of experience, specializing in React.js, React Native and TypeScript. I build scalable, high-performance interfaces with a focus on component reuse and REST API integration. I have solid experience in Full Stack ecosystems, which gives me a holistic view of software architecture and enables efficient collaboration within multidisciplinary Agile teams.}
+{Full Stack Developer with 4+ years of experience, specializing in React.js, React Native and TypeScript on the front end, and currently working with Java and AWS Lambda on the back end. I build scalable, high-performance interfaces with a focus on component reuse and REST API integration. I have solid experience in Full Stack ecosystems, which gives me a holistic view of software architecture and enables efficient collaboration within multidisciplinary Agile teams.}
 
 \section{Highlights}
 \begin{itemize}
 	\item Built a React Native mobile app for public health management, enabling community agents to track households and properties in the field, streamlining team workflows and improving municipal data quality.
 	\item Created managerial reports with municipal data covering vector control (such as Aedes aegypti) and disease monitoring, supporting health teams' decision-making.
+	\item Working on the mobile app's data synchronization back end, developing Java services on AWS Lambda.
 	\item Built an internal Design System with reusable component libraries to accelerate the team's development.
 	\item Implemented PIX payment integration and dynamic dashboards for managerial reports in a financial ERP system.
 \end{itemize}
 
 \section{Technical Skills}
-\cvitem{Main Stack}{React.js, React Native, TypeScript, Tailwind CSS}
-\cvitem{Secondary Stack}{Vue.js, Angular, C\#, SQL}
+\cvitem{Front-End}{React.js, React Native, TypeScript, Tailwind CSS, Vue.js, Angular}
+\cvitem{Back-End}{Java, AWS Lambda, C\#, ASP.NET, SQL}
 \cvitem{Practices}{Git, Scrum/Kanban, Code Review, Design System}
 
+\newpage
 \section{Experience}
 \cventry{Jul/2024 -- Present}{Front-End Developer}{CELK Sistemas}{Florianópolis-SC (Remote)}{}{
 	\begin{itemize}
@@ -45,10 +53,11 @@
 		\item Created managerial reports with municipal data covering vector control (such as Aedes aegypti) and disease monitoring, supporting health teams' decision-making.
 		\item Built an offline-first architecture with WatermelonDB, ensuring the app works without internet connection and automatically syncs data when online.
 		\item Built an internal Design System with reusable components, standardizing the interface and accelerating the development of new features.
-		\item Contributed to continuous improvement of the application and development processes, participating in code reviews and architecture evolution.
+		\item Currently working on the app's data synchronization, developing back-end services in Java running on AWS Lambda to sync data between the mobile app and the server.
+		\item Participate in architecture meetings, contributing to technical decisions on the application and its synchronization flow, as well as code reviews and continuous process improvement.
 	\end{itemize}
 	\bigskip
-	Skills: React Native · TypeScript · WatermelonDB · Tailwind CSS · Design System · Offline-first
+	Skills: React Native · TypeScript · Java · AWS Lambda · WatermelonDB · Tailwind CSS · Design System · Offline-first
 	\bigskip
 }
 
